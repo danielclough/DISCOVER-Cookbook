@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+tags:
+ - About
 ---
 
 ## About this Cookbook:

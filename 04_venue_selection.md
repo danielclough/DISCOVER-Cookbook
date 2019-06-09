@@ -1,6 +1,39 @@
 ---
 layout: page
 title: Venue Selection &amp; On-Site Services
+
+mobility:
+ - Mobility Impairment
+ - People with Disabilities
+ - Location & Venue
+ - Bathrooms
+
+disability:
+ - People with Disabilities
+ - Mobility Impairment
+ - Hearing Impairment
+ - Other Impairments
+ - Visual Impairment
+
+bathroom:
+ - Location & Venue
+ - Bathrooms
+ - LGBTQ+
+ - Women
+ - People with Allergies
+
+nursing-pumping:
+ - Parents & Carers
+ - Women
+
+nursing-bottle:
+ - Parents & Carers
+
+quite:
+ - Religious Groups
+ - Being Respectful
+ - Giving participants room to be who they are
+
 ---
 
 ## Accessibility Considerations
@@ -8,7 +41,7 @@ title: Venue Selection &amp; On-Site Services
 
 ### Mobility
 
-**Tags:** <span style="color:red">Mobility Impairment</span>, <span style="color:red">People with Disabilities</span>, <span style="color:red"> Location & Venue</span>, <span style="color:red">Bathrooms</span>
+***Tags:*** <span style="color:red"> {{ page.mobility | sort | join: ", " }}</span>
 
 - 🍎 Reserve seats in rooms for folks who might need it (wheelchair, crutches, cane, etc.). Choose easily-accessible seats, such as at the end of a row on the aisle. 
 - 🍎 Create wide aisles (2.5m so two power chairs can pass each other) between chairs to make it easier for people who are mobility-impaired to navigate the room.
@@ -20,7 +53,7 @@ title: Venue Selection &amp; On-Site Services
 
 ### Disability
 
-**Tags:** <span style="color:red">People with Disabilities</span>, <span style="color:red">People with Disabilities</span>, <span style="color:red">Mobility Impairment</span>, <span style="color:red">Hearing Impairment</span>, <span style="color:red">Other Impairments</span>, <span style="color:red">Visual Impairment</span>
+***Tags:*** <span style="color:red"> {{ page.disability | sort | join: ", " }}</span>
 
 - ✅ Book sign-language interpreters and/or real-time captioning (someone typing captions) for deaf and hard-of-hearing attendees. 
 - Consider using patterns rather than just color on signs and presentation slides to indicate differences, to make comprehension easier for attendees with color blindness/low vision issues.
@@ -41,7 +74,7 @@ title: Venue Selection &amp; On-Site Services
 
 ## Bathrooms
 
-**Tags**: <span style="color:red">Location & Venue</span>, <span style="color:red">Bathrooms</span>, <span style="color:red">LGBTQ+</span>, <span style="color:red">Women</span>, <span style="color:red">People with Allergies</span>
+***Tags:*** <span style="color:red"> {{ page.bathroom | sort | join: ", " }}</span>
 
 ### Gender-Neutral Bathrooms
 
@@ -72,7 +105,7 @@ title: Venue Selection &amp; On-Site Services
 
 ### 🍎 Nursing &amp; Pumping Room
 
-**Tags:** <span style="color:red">Parents & Carers</span>, <span style="color:red">Women</span>
+***Tags:*** <span style="color:red"> {{ page.nursing-pumping | sort | join: ", " }}</span>
 
 - Ensure there is a dedicated, single-occupancy space with lock.
 - For the room to be optimally useful, these things are desired:
@@ -87,7 +120,7 @@ title: Venue Selection &amp; On-Site Services
 
 ### 🍎 Gender-Neutral Bottle Feeding Room
 
-**Tags:** <span style="color:red">Parents & Carers</span>
+***Tags:*** <span style="color:red"> {{ page.nursing-bottle | sort | join: ", " }}</span>
 
   - Bottle-fed babies can be fed by caregivers of any gender and also benefit from a quiet, low-distraction, private space for feeding.
   - This should be a separate, additional room ( **NOT the same as the nursing and pumping room** ). It could accommodate multiple babies at a time and be equipped with:
@@ -104,7 +137,7 @@ title: Venue Selection &amp; On-Site Services
 
 ### 🍎 Quiet Room
 
-**Tags:** <span style="color:red">Religious Groups</span>, <span style="color:red">Being Respectful</span>, <span style="color:red">Giving participants room to be who they are </span>
+***Tags:*** <span style="color:red"> {{ page.quite | sort | join: ", " }}</span>
 
 - A dedicated room for people who need a break from the stimulation of being surrounded by people at the conference.
   - No phone calls, talking/socializing, etc.

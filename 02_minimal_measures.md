@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Summary
+tags:
+ - Summary
 ---
 
 ## The easiest and most impactful measures

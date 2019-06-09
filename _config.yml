@@ -10,13 +10,13 @@ permalink:           pretty
 # Setup
 title:               DISCOVER Cookbook
 tagline:             'Diverse & Inclusive Spaces and Conferences'
-description:         'The NumFOCUS DISCOVER Cookbook'
-url:                 https://discover-cookbook.github.io/
-giturl:              https://github.com/discover-cookbook/discover-cookbook.github.io
+description:         'The NumFOCUS DISCOVER Cookbook: Daniel's Fork
+url:                 https://github.com/danielclough/discover-cookbook.github.io
+giturl:              https://github.com/danielclough/discover-cookbook.github.io
 baseurl:             / 
 paginate:            5
 
 # Custom vars
 version:             0.0.1
 
-github.repo: https://github.com/discover-cookbook/discover-cookbook.github.io
+github.repo: https://github.com/danielclough/discover-cookbook.github.io

@@ -1,9 +1,16 @@
 ---
 layout: page
 title: Organizing Committee
+
+committee:
+ - Organization and Program Committees
+ - Embracing Diverse Voices & Experiences
+ - Unconscious and Implicit Bias
+ - Tokenism
 ---
 
-**Tags:** <span style="color:red"> Organisation and Program Committees</span>, <span style="color:red"> Embracing Diverse Voices & Experiences</span>, <span style="color:red"> Unconscious and Implicit Bias</span>, <span style="color:red"> Tokenism</span>
+***Tags:*** <span style="color:red"> {{ page.committee | sort | join: ", " }}</span>
+
 
 ✅ The organizing committee itself should reflect the diversity you want to create in your conference! 
 Prioritizing diversity starts with you.
