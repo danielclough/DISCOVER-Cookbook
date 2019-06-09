@@ -1,12 +1,38 @@
 ---
 layout: page
 title: Participant and Speaker Selection
+
+speakers:
+ - Participant Diversity
+ - Presenter Line-up
+ - Embracing Diverse Voices
+ - Unconscious and Implicit Bias
+ - Tokenism
+
+selecting-speakers:
+ - Calls for Papers and Proposals
+ - Presenter Line-up
+ - Code of Conduct
+
+new-speakers:
+ - Newcomers & First-Timers
+
+attendees:
+ - Participant Diversity
+ - Embracing Diverse Voices
+ - Unconscious and Implicit Bias 
+
+proposals:
+ - Unconscious and Implicit Bias
+ - Discrimination
+ - Calls for Papers & Proposals
+ - Organization and Program Committees
 ---
 
 
 ## Speakers
 
-**Tags:** <span style="color:red"> Participant Diversity</span>, <span style="color:red"> Presenter Line-up</span>, <span style="color:red"> Embracing Diverse Voices</span>, <span style="color:red"> Unconscious and Implicit Bias</span>, <span style="color:red"> Tokenism</span>
+***Tags:*** <span style="color:red"> {{ page.speakers | join: ", " }}</span>
 
 ### Invited Speakers
 
@@ -25,7 +51,7 @@ title: Participant and Speaker Selection
   - Make strategic use of the moderator role to help support diverse participation
 
 ### Selecting Speakers
-**Tags:** <span style="color:red"> Calls for Papers and Proposals</span>, <span style="color:red"> Presenter Line-up</span>, <span style="color:red"> Code of Conduct</span>
+***Tags:*** <span style="color:red"> {{ page.selecting-speakers | join: ", " }}</span>
 
 - 🍎 Call For Proposals (CFP) instructions
   - In the solicitation, be transparent that you want a broad &amp; diverse group to share their expertise.
@@ -43,13 +69,13 @@ title: Participant and Speaker Selection
 
 ### Incentivize First-Time Speakers:
 
-**Tags:** <span style="color:red"> Newcomers & First-Timers</span>
+***Tags:*** <span style="color:red"> {{ page.new-speakers | join: ", " }}</span>
 
 - E.g. &quot;We are looking to diversify our speaker panel; we want to select a cohort of first-time speakers to ensure we continue to offer professional development opportunities to everyone in the community.&quot;
 
 ## Attracting Attendees
 
-**Tags:** <span style="color:red"> Participant Diversity</span>, <span style="color:red"> Embracing Diverse Voices</span>, <span style="color:red"> Unconscious and Implicit Bias</span>
+***Tags:*** <span style="color:red"> {{ page.attendees | join: ", " }}</span>
 
 - Be clear about what your event is about, explain it to people who are less familiar and haven&#39;t attended before.
 - 🍎 Pay attention to the photos you use to advertise your event—what do people look like who attend?
@@ -69,7 +95,8 @@ title: Participant and Speaker Selection
 
 ### Call For Proposals review (&quot;blind&quot; vs &quot;affirmative action&quot;)
 
-**Tags:** <span style="color:red"> Unconscious and Implicit Bias</span>, <span style="color:red"> Discrimination</span>, <span style="color:red"> Calls for Papers & Proposals</span>, <span style="color:red"> Organisation and Program Committees</span>
+***Tags:*** <span style="color:red"> {{ page.proposals | join: ", " }}</span>
+
   - **&quot;Open&quot; versus &quot;Blind&quot; or &quot;Closed&quot; Review**
     - &quot;Open&quot; review is a form of review in which the names of the reviewers are made public.
     - &quot;Double-Open&quot; review is when the reviewers know the identity of the proposal author and the proposal author also knows the identity of their reviewers

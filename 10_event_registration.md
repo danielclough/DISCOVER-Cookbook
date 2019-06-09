@@ -1,13 +1,43 @@
 ---
 layout: page
 title: Event Registration
+
+accessibility: 
+ - Registration
+ - People with Disabilities 
+
+grants:
+ - Registration
+ - Scholarships
+
+dietary:
+ - People with Allergies
+ - Catering
+ - Dietary Restrictions
+ - Registration
+
+photography:
+ - Registration
+ - Giving Participants Room to Be Who They Are
+
+code-of-conduct:
+ - Code of Conduct
+
+t-shirts:
+ - Unconscious and Implicit Bias
+
+demographic:
+ - Unconscious and Implicit Bias 
+ - Embracing Diverse Voices and Experiences
+ - Stereotyping
+ - Giving Participants Room to Be Who They Are
 ---
 
 What to ask on your registration form (and what not to ask)
 
 ## Preparing to meet accessibility needs
 
-**Tags**: <span style="color:red"> Registration</span>, <span style="color:red">People with Disabilities</span> 
+***Tags:*** <span style="color:red"> {{ page.accessibility | sort | join: ", " }}</span>
 
 - Outline any accessibility services you plan to provide on the registration form. Then:
 - 🍎 Ask registrants if they have any additional accessibility needs, and if so, provide instructions on how to make the request.
@@ -16,13 +46,13 @@ What to ask on your registration form (and what not to ask)
 
 ## Supporting Attendance through Grants
 
-**Tags**: <span style="color:red"> Registration</span>, <span style="color:red"> Scholarships</span>
+***Tags:*** <span style="color:red"> {{ page.grants | sort | join: ", " }}</span>
 
 - Ask about any grant or scholarship opportunities, e.g. for childcare, scholarships for underrepresented folks
   - &quot;Would you be interested in a grant to cover childcare or on-site childcare services? (yes/no) Which option would be most beneficial for you?&quot;
 
 ## Dietary Restrictions
-**Tags:** <span style="color:red"> People with Allergies</span>, <span style="color:red"> Catering</span>, <span style="color:red"> Dietary Restrictions</span>, <span style="color:red"> Registration</span>
+***Tags:*** <span style="color:red"> {{ page.dietary | sort | join: ", " }}</span>
 
 - 🍎 Some people have severe allergies or dietary restrictions that can affect their ability to attend the conference.
 - Use an open text box to ask about dietary restrictions. (Forcing registrants to choose from a pre-defined list might miss important allergies or restrictions.)
@@ -30,7 +60,7 @@ What to ask on your registration form (and what not to ask)
 
 ## Photo Policy
 
-**Tags:** <span style="color:red"> Registration</span>, <span style="color:red"> Giving Participants Room to Be Who They Are</span>
+***Tags:*** <span style="color:red"> {{ page.photography | sort | join: ", " }}</span>
 
 - 🍎 If you will have a photographer at your event, include information for attendees explaining that they may be photographed and how to opt out.
   - (see lanyard/photography explanation under [Inclusive Practices](11_inclusive_practices_during_checkin.md))
@@ -41,13 +71,13 @@ What to ask on your registration form (and what not to ask)
 - [Geek Feminism Photographyy](http://geekfeminism.wikia.com/wiki/Photography)
 
 ## Code of Conduct
-**Tags:** <span style="color:red"> Code of Conduct </span>
+***Tags:*** <span style="color:red"> {{ page.code-of-conduct | sort | join: ", " }}</span>
 
 - 🍎 Show the text of the Code of Conduct and a required check-box that the registrant has read it and agrees to abide by it.
 
 ## T-Shirts
 
-**Tags:** <span style="color:red"> Unconscious and Implicit Bias </span>
+***Tags:*** <span style="color:red"> {{ page.t-shirts | sort | join: ", " }}</span>
 
 If you plan to offer t-shirts, consider offering more than one cut/fit of shirt.
 - Provide shirt sizing information with the registration form where you ask for shirt size. (Provide a wide range of sizes, including plus-size.)
@@ -60,7 +90,7 @@ If you plan to offer t-shirts, consider offering more than one cut/fit of shirt.
 
 ## Demographic Info
 
-**Tags:** <span style="color:red"> Unconscious and Implicit Bias </span>, <span style="color:red"> Embracing Diverse Voices and Experiences</span>, <span style="color:red"> Stereotyping</span>, <span style="color:red"> Giving Participants Room to Be Who They Are </span>
+***Tags:*** <span style="color:red"> {{ page.demographic | sort | join: ", " }}</span>
 
 - **Why do you need it?**
   - We recommend you do not ask for information just &quot;out of curiosity&quot; but rather that there are **planned actions you will take depending on the results** of your demographic question(s).
